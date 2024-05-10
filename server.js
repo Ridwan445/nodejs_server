@@ -28,7 +28,7 @@ app.use((req, res, next) => {
   next();
 });
 
-const port = 6060;
+const port = 7070;
 
 app.post("/create/one", async (req, res) => {
 const {name, age, email, phone }= req.body;
